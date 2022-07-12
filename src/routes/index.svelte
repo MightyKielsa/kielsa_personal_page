@@ -1,2 +1,12 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import SkillContainer from '../lib/SkillContainer.svelte';
+	import ProjectCard from '../lib/ProjectCard.svelte';
+</script>
+
+<main>
+	<SkillContainer />
+	<ProjectCard />
+</main>
+
+<style>
+</style>
